@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.input-group{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.input-group input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group button{
+    background-color: #4caf50;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 5px;
+}
+
+li{
+    padding: 5px;
+    border-bottom: 1px solid #4b4b4b;
+    display: flex;
+    align-items: center;
+}
+
+li:last-child{
+    border: none;
+}
+
+li span{
+    felx: 1;
+}
+
+li button{
+    background-color: red;
+    color: #ffff;
+}
